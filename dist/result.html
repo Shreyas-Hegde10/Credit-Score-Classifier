@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CreditClarity - Result</title>
+  <link href="./output.css" rel="stylesheet"> 
+</head>
+<body>
+  <header class="bg-teal-600 text-white p-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">CreditClarity</h1>
+    </div>
+  </header>
+  <section class="bg-teal-500 text-white py-20">
+    <div class="container mx-auto text-center">
+      <h2 class="text-4xl font-semibold mb-4">Your Credit Score Prediction</h2>
+      <p class="text-xl mb-8">Based on the information you provided, your credit score category is:</p>
+      <p class="text-3xl font-bold">{{ prediction }}</p>
+      <a href="/" class="bg-white text-teal-500 px-6 py-3 rounded-full font-semibold mt-8">Go Back</a>
+    </div>
+  </section>
+</body>
+</html>
